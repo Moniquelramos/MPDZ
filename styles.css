@@ -17,9 +17,20 @@ body {
 .insta-logo {
     margin-bottom: 20px ;
 }
+.container-imagens {
+    position: relative;
+}
 
 .img-celular {
     width: 450px;
+}
+
+.imagem-celular{
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
 }
 .container-itens {
     width: 350px;
